@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+ul li a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #ff6363;
+    padding: 15px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #background-picture {
+      background-image: url(bimage.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: auto;
+  }
+
+  h3 {
+      padding: 80px 0 20px 0;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  h1 {
+      font-size: 30px;
+      padding: 20px 0 60px 0;
+      font-family: 'Rubik Gemstones', cursive;
+  }
+
+  .leftside {
+      width: 35%;
+      margin-left: 100px;
+  }
+
+  p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #ff6363;
+    font-family: 'Rubik Gemstones', cursive;
+  }
+
+  h2 {
+    padding: 20px 0 50px 0;
+    Font-family: 'Open Sans', sans-serif;
+  }
